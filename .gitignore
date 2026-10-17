@@ -1,0 +1,23 @@
+# Build output. The website is published from the gh-pages branch (see publish.sh).
+/dist/
+/ringgit-log.html
+/.app.js
+/.web.js
+/.check.js
+/.check-web.js
+/.prompts-check.mjs
+
+# Leftovers from building the Excel template
+/template/html/
+/template/png/
+/template/unz/
+
+# Test output
+/test/web/out/
+/test/fn/.build/
+/test/package.json
+/test/debug.cjs
+
+node_modules/
+.DS_Store
+Thumbs.db

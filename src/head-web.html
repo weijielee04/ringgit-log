@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data: blob: __SUPABASE_URL__; connect-src 'self' __SUPABASE_URL__; object-src 'none'; base-uri 'none'; form-action 'self'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<title>Ringgit Log</title>
+<meta name="description" content="Track daily and monthly expenses in Malaysia: TnG eWallet and CIMB statements, receipts, trips and toll, office and on-site parking, and Excel import.">
+<meta name="theme-color" content="#f6f4f5" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#121012" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap">
+<style>
+html,body{margin:0;padding:0}
+:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+img{max-width:100%}
+[hidden]{display:none!important}
+/*STYLE*/
+</style>
+</head>
+<body>
+<div id="app"><div class="boot"><strong>Ringgit Log</strong><span id="boot-msg">Opening your expense tracker…</span></div></div>
+<noscript><p style="padding:24px;text-align:center">Ringgit Log needs JavaScript to run.</p></noscript>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.3.1/umd/react.production.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.3.1/umd/react-dom.production.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@__SUPABASE_JS__/dist/umd/supabase.js"></script>
+<script>
+(function () {
+"use strict";
+var bootMsg = document.getElementById("boot-msg");
+if (!window.React || !window.ReactDOM || typeof ReactDOM.createRoot !== "function") {
+  if (bootMsg) bootMsg.textContent = "The app couldn't load its interface. Check your connection and reload the page.";
+  return;
+}
+const h = React.createElement, Fragment = React.Fragment;
+const useState = React.useState, useEffect = React.useEffect, useLayoutEffect = React.useLayoutEffect, useRef = React.useRef, useMemo = React.useMemo, useCallback = React.useCallback;
+/*SCRIPT*/
+})();
+</script>
+</body>
+</html>

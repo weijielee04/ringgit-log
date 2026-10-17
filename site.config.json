@@ -1,0 +1,6 @@
+{
+  "comment": "Where the website keeps accounts and records. Both values are public by design: the row-level security rules in supabase/migrations decide what each signed-in person can reach. To run your own copy, put your Supabase project's URL and publishable key here and rebuild.",
+  "supabaseUrl": "https://rjhfvorbgpdubnqfbexc.supabase.co",
+  "supabasePublishableKey": "sb_publishable_rohlnaMJfipMmhfZdTAfnA_HkiVy6y-",
+  "supabaseJsVersion": "2.117.2"
+}
